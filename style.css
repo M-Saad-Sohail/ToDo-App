@@ -1,0 +1,82 @@
+body {
+  /* text-align: center !important; */
+  /* background-color: cornflowerblue !important; */
+  background-image: url('https://img.freepik.com/premium-photo/colored-pencils-sheet-notes-lie-blue-background-top-view-background-todo-list-back-school_230115-2400.jpg?w=2000');
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+/* opacity: 0.5; */
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+while the background image is loading */
+  /* background-color: #464646; */
+}
+
+/* @media only screen and (max-width: 900px) {
+  body {
+    height: 100vw !important;
+    width: 100% !important;
+  }
+} */
+
+.signin {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.login {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* opacity: 1 !important; */
+  
+}
+#inp{
+  outline: none;
+  /* opacity: 1 !important; */
+
+}
+.shadow {
+  border: 3px solid #f2c451;
+
+}
+
+.input button {
+  border: 3px solid #f2c451;
+  /* opacity: 1 !important; */
+
+}
+
+.butn {
+  border: 3px solid #f2c451;
+}
+
+h1 {
+  color: #f2c451;
+  text-shadow: 2px 2px 2px black;
+}
+
+ul {
+  list-style-type:decimal;
+}
+
+.none{
+  display: none !important;
+}
